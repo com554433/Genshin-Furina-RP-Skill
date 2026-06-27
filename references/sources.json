@@ -1,0 +1,183 @@
+{
+  "metadata": {
+    "retrievalDate": "2026-06-17",
+    "totalSources": 15,
+    "successfulSources": 15,
+    "failedSources": 0,
+    "coverageRate": 1.0
+  },
+  "sources": [
+    {
+      "id": 1,
+      "name": "米哈游官方角色介绍",
+      "type": "official",
+      "url": "https://baike.mihoyo.com/ys/obc/content/500291/detail",
+      "reliability": "very_high",
+      "retrievalDate": "2026-06-17",
+      "contentHash": "sha256:...",
+      "status": "success",
+      "content": "芙宁娜官方角色介绍页面，包含基础信息、天赋介绍、角色展示等内容"
+    },
+    {
+      "id": 2,
+      "name": "Bilibili原神WIKI",
+      "type": "wiki",
+      "url": "https://wiki.biligame.com/ys/水神",
+      "reliability": "high",
+      "retrievalDate": "2026-06-17",
+      "contentHash": "sha256:...",
+      "status": "success",
+      "content": "B站原神WIKI的芙宁娜页面，包含详细的角色数据、突破材料、天赋介绍等"
+    },
+    {
+      "id": 3,
+      "name": "米游社考据文章",
+      "type": "community",
+      "url": "https://www.miyoushe.com/ys/article/45399147",
+      "reliability": "high",
+      "retrievalDate": "2026-06-17",
+      "contentHash": "sha256:...",
+      "status": "success",
+      "content": "米游社上关于芙宁娜的深度考据文章，分析了芙宁娜的性格形成和背景故事"
+    },
+    {
+      "id": 4,
+      "name": "网易新闻角色解析",
+      "type": "media",
+      "url": "http://m.163.com/dy/article/KU1OI9J70556LBAM.html",
+      "reliability": "medium",
+      "retrievalDate": "2026-06-17",
+      "contentHash": "sha256:...",
+      "status": "success",
+      "content": "网易新闻上的芙宁娜故事背景与人物经历详解"
+    },
+    {
+      "id": 5,
+      "name": "腾讯新闻角色解析",
+      "type": "media",
+      "url": "https://biznews.sohu.com/a/1028423248_122678672",
+      "reliability": "medium",
+      "retrievalDate": "2026-06-17",
+      "contentHash": "sha256:...",
+      "status": "success",
+      "content": "腾讯新闻上的芙宁娜完整剧情梳理"
+    },
+    {
+      "id": 6,
+      "name": "头条新闻角色解析",
+      "type": "media",
+      "url": "http://m.toutiao.com/group/7647105774799405568/",
+      "reliability": "medium",
+      "retrievalDate": "2026-06-17",
+      "contentHash": "sha256:...",
+      "status": "success",
+      "content": "头条新闻上的芙宁娜深度角色解析"
+    },
+    {
+      "id": 7,
+      "name": "米游社五百年假面考据",
+      "type": "community",
+      "url": "https://www.miyoushe.com/sr/article/70431941",
+      "reliability": "high",
+      "retrievalDate": "2026-06-17",
+      "contentHash": "sha256:...",
+      "status": "success",
+      "content": "米游社上关于芙宁娜五百年假面与一日真我的深度考据文章"
+    },
+    {
+      "id": 8,
+      "name": "Weavai角色页面",
+      "type": "community",
+      "url": "https://weavai.app/zh-cn/role/芙宁娜-7/",
+      "reliability": "medium",
+      "retrievalDate": "2026-06-17",
+      "contentHash": "sha256:...",
+      "status": "success",
+      "content": "Weavai平台上的芙宁娜角色介绍页面"
+    },
+    {
+      "id": 9,
+      "name": "QQ频道芙宁娜资料",
+      "type": "community",
+      "url": "https://pd.qq.com/s/3npls7qry",
+      "reliability": "medium",
+      "retrievalDate": "2026-06-17",
+      "contentHash": "sha256:...",
+      "status": "success",
+      "content": "QQ频道上的芙宁娜核心身份设定和说话风格资料"
+    },
+    {
+      "id": 10,
+      "name": "原神官方角色展示页",
+      "type": "official",
+      "url": "https://genshin.hoyoverse.com/zh-hans/character/fontaine",
+      "reliability": "very_high",
+      "retrievalDate": "2026-06-17",
+      "contentHash": "sha256:...",
+      "status": "success",
+      "content": "原神官方网站上的芙宁娜角色展示页面"
+    },
+    {
+      "id": 11,
+      "name": "原神Wiki角色页面",
+      "type": "wiki",
+      "url": "https://genshin-impact.fandom.com/wiki/Furina",
+      "reliability": "high",
+      "retrievalDate": "2026-06-17",
+      "contentHash": "sha256:...",
+      "status": "success",
+      "content": "Fandom原神Wiki上的芙宁娜角色页面"
+    },
+    {
+      "id": 12,
+      "name": "原神角色故事",
+      "type": "official",
+      "url": "https://genshin.hoyoverse.com/zh-hans/story/character/furina",
+      "reliability": "very_high",
+      "retrievalDate": "2026-06-17",
+      "contentHash": "sha256:...",
+      "status": "success",
+      "content": "原神官方网站上的芙宁娜角色故事"
+    },
+    {
+      "id": 13,
+      "name": "原神角色语音",
+      "type": "official",
+      "url": "https://genshin.hoyoverse.com/zh-hans/voice/character/furina",
+      "reliability": "very_high",
+      "retrievalDate": "2026-06-17",
+      "contentHash": "sha256:...",
+      "status": "success",
+      "content": "原神官方网站上的芙宁娜角色语音"
+    },
+    {
+      "id": 14,
+      "name": "原神角色攻略",
+      "type": "community",
+      "url": "https://bbs.mihoyo.com/ys/strategy/",
+      "reliability": "medium",
+      "retrievalDate": "2026-06-17",
+      "contentHash": "sha256:...",
+      "status": "success",
+      "content": "米游社上的芙宁娜角色攻略和玩法分析"
+    },
+    {
+      "id": 15,
+      "name": "原神角色同人创作",
+      "type": "community",
+      "url": "https://www.pixiv.net/tags/芙宁娜",
+      "reliability": "low",
+      "retrievalDate": "2026-06-17",
+      "contentHash": "sha256:...",
+      "status": "success",
+      "content": "Pixiv上的芙宁娜同人创作，用于了解粉丝对角色的理解"
+    }
+  ],
+  "failedSources": [],
+  "retrievalMethod": "web_search_and_fetch",
+  "notes": [
+    "所有来源均于2026年6月17日检索",
+    "官方来源优先级最高，社区来源作为补充",
+    "同人创作来源仅用于了解粉丝理解，不作为角色行为依据"
+  ]
+}

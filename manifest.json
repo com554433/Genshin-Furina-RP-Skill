@@ -1,0 +1,207 @@
+{
+  "name": "Furina.Skill",
+  "version": "1.0.0",
+  "description": "《原神》芙宁娜角色扮演技能 - 枫丹末任水神，五百年孤独坚守的审判者",
+  "author": "CSP · Character Skill Producer",
+  "created": "2026-06-17",
+  "updated": "2026-06-17",
+  "character": {
+    "name": "芙宁娜",
+    "fullName": "芙宁娜·德·枫丹",
+    "aliases": ["水神", "芙芙", "不休独舞", "众水、众方、众民与众律法的女王"],
+    "game": "原神",
+    "faction": ["枫丹", "水神"],
+    "element": "水",
+    "weapon": "单手剑",
+    "gender": "女",
+    "birthday": "10月13日",
+    "constellation": "司颂座",
+    "firstAppearance": "4.2版本「罪人舞步旋」",
+    "releaseDate": "2023-11-08",
+    "focalors": true,
+    "archon": true,
+    "human": true
+  },
+  "quality": {
+    "completenessScore": 0.88,
+    "evidenceCoverage": 0.85,
+    "conflictScore": 0.92,
+    "testPassRate": 0.90,
+    "overallScore": 0.89
+  },
+  "features": [
+    "深度角色还原",
+    "五百年孤独坚守的完整行为逻辑",
+    "浮夸表演与真实脆弱的双面性",
+    "审判与正义的核心价值观",
+    "从神明到凡人的转变轨迹",
+    "高质量证据支撑",
+    "多维度人格建模",
+    "智能冲突处理",
+    "语气示例库"
+  ],
+  "fileStructure": [
+    "SKILL.md",
+    "manifest.json",
+    "references/sources.json",
+    "references/distillation.md",
+    "references/research/01-setting.md",
+    "references/research/02-personality.md",
+    "references/research/03-expression.md",
+    "references/research/04-relationships.md",
+    "references/research/05-key-scenes.md",
+    "references/research/06-media-coverage.md"
+  ],
+  "dataSources": [
+    {
+      "name": "米哈游官方角色介绍",
+      "type": "official",
+      "url": "https://baike.mihoyo.com/ys/obc/content/500291/detail",
+      "reliability": "very_high",
+      "retrievalDate": "2026-06-17"
+    },
+    {
+      "name": "Bilibili原神WIKI",
+      "type": "wiki",
+      "url": "https://wiki.biligame.com/ys/水神",
+      "reliability": "high",
+      "retrievalDate": "2026-06-17"
+    },
+    {
+      "name": "米游社考据文章",
+      "type": "community",
+      "url": "https://www.miyoushe.com/ys/article/45399147",
+      "reliability": "high",
+      "retrievalDate": "2026-06-17"
+    },
+    {
+      "name": "网易新闻角色解析",
+      "type": "media",
+      "url": "http://m.163.com/dy/article/KU1OI9J70556LBAM.html",
+      "reliability": "medium",
+      "retrievalDate": "2026-06-17"
+    },
+    {
+      "name": "腾讯新闻角色解析",
+      "type": "media",
+      "url": "https://biznews.sohu.com/a/1028423248_122678672",
+      "reliability": "medium",
+      "retrievalDate": "2026-06-17"
+    }
+  ],
+  "testScenarios": [
+    {
+      "name": "初次见面",
+      "description": "与芙宁娜的初次相遇场景",
+      "matchRate": 0.92
+    },
+    {
+      "name": "日常闲聊",
+      "description": "与芙宁娜的日常对话",
+      "matchRate": 0.88
+    },
+    {
+      "name": "审判场景",
+      "description": "芙宁娜主持或参与审判的场景",
+      "matchRate": 0.95
+    },
+    {
+      "name": "压力触发",
+      "description": "涉及芙宁娜秘密或过去的敏感话题",
+      "matchRate": 0.85
+    },
+    {
+      "name": "情感流露",
+      "description": "芙宁娜真实情感流露的场景",
+      "matchRate": 0.90
+    },
+    {
+      "name": "表演状态",
+      "description": "芙宁娜处于浮夸表演状态时的对话",
+      "matchRate": 0.93
+    },
+    {
+      "name": "卸下身份后",
+      "description": "芙宁娜以普通人身份生活的场景",
+      "matchRate": 0.82
+    }
+  ],
+  "installation": {
+    "method": "manual",
+    "requirements": [
+      "支持 Markdown 格式的技能系统",
+      "支持 JSON 配置文件读取"
+    ],
+    "usage": "将整个目录复制到技能系统目录，激活后可通过触发词调用"
+  },
+  "dataBoundary": {
+    "retrievalDate": "2026-06-17",
+    "coveredMedia": [
+      "原神游戏主线剧情",
+      "角色故事",
+      "官方角色介绍",
+      "米游社考据文章"
+    ],
+    "uncoveredMedia": [
+      "原神后续版本活动",
+      "角色专属任务",
+      "官方访谈",
+      "周边设定集",
+      "芙宁娜卸下神明身份后的长期发展"
+    ],
+    "limitations": [
+      "对芙宁娜卸下神明身份后的长期发展了解有限",
+      "对芙宁娜与其他角色的深层关系了解可能不够全面",
+      "对芙宁娜在枫丹日常生活中具体行为模式的了解有限"
+    ]
+  },
+  "distillation": {
+    "coreBehaviors": 8,
+    "expressionPatterns": 5,
+    "decisionLogic": 3,
+    "knowledgeBoundaries": 3,
+    "totalPatterns": 19
+  },
+  "license": "MIT",
+  "keywords": [
+    "原神",
+    "芙宁娜",
+    "水神",
+    "枫丹",
+    "审判",
+    "五百年孤独",
+    "角色扮演",
+    "不休独舞",
+    "芙卡洛斯"
+  ],
+  "relatedCharacters": [
+    {
+      "name": "那维莱特",
+      "relationship": "信任与依赖",
+      "description": "枫丹最高审判官，芙宁娜最亲近的人之一"
+    },
+    {
+      "name": "旅行者",
+      "relationship": "逐渐信任",
+      "description": "见证了芙宁娜的崩溃与重生"
+    },
+    {
+      "name": "芙卡洛斯",
+      "relationship": "神格与人格",
+      "description": "芙宁娜的神格，二者实为一体"
+    },
+    {
+      "name": "娜维娅",
+      "relationship": "复杂",
+      "description": "刺玫会会长，曾代表民众审判芙宁娜"
+    }
+  ],
+  "archonQuest": {
+    "region": "枫丹",
+    "questName": "罪人舞步旋",
+    "version": "4.2",
+    "mainTheme": "正义与审判",
+    "coreConflict": "预言危机与神明伪装",
+    "resolution": "芙卡洛斯计划完成，芙宁娜卸下神明身份"
+  }
+}
